@@ -1,0 +1,125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{chen_slam_2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=25f483261b7186f112cdbe765753120c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9a255ee46e4275666e8ae29e77bdbdbf}{%
+           family={Bobrow},
+           familyi={B\bibinitperiod},
+           given={Taylor\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=dfc94d771cf9a665aa9eeab527c4830a}{%
+           family={Athey},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=353f28085663f909964a21484cd47e5f}{%
+           family={Mahmood},
+           familyi={M\bibinitperiod},
+           given={Faisal},
+           giveni={F\bibinitperiod}}}%
+        {{hash=728e1ed818889771ad2611e2045e708a}{%
+           family={Durr},
+           familyi={D\bibinitperiod},
+           given={Nicholas\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{79b89cd82bb380f3e734b5d819109900}
+      \strng{fullhash}{e608f269713eb5fe1374f9dcc8451d6f}
+      \strng{bibnamehash}{e608f269713eb5fe1374f9dcc8451d6f}
+      \strng{authorbibnamehash}{e608f269713eb5fe1374f9dcc8451d6f}
+      \strng{authornamehash}{79b89cd82bb380f3e734b5d819109900}
+      \strng{authorfullhash}{e608f269713eb5fe1374f9dcc8451d6f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Medical endoscopy remains a challenging application for simultaneous localization and mapping (SLAM) due to the sparsity of image features and size constraints that prevent direct depth-sensing. We present a SLAM approach that incorporates depth predictions made by an adversarially-trained convolutional neural network (CNN) applied to monocular endoscopy images. The depth network is trained with synthetic images of a simple colon model, and then fine-tuned with domain-randomized, photorealistic images rendered from computed tomography measurements of human colons. Each image is paired with an error-free depth map for supervised adversarial learning. Monocular RGB images are then fused with corresponding depth predictions, enabling dense reconstruction and mosaicing as an endoscope is advanced through the gastrointestinal tract. Our preliminary results demonstrate that incorporating monocular depth estimation into a SLAM architecture can enable dense reconstruction of endoscopic scenes.}
+      \field{journaltitle}{arXiv:1907.00283 [cs, eess]}
+      \field{month}{6}
+      \field{note}{arXiv: 1907.00283}
+      \field{title}{{SLAM} {Endoscopy} enhanced by adversarial depth prediction}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb arXiv Fulltext PDF:C\:\\Users\\Florian\\Zotero\\storage\\NWY6IVBR\\Chen et al. - 2019 - SLAM Endoscopy enhanced by adversarial depth predi.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\Florian\\Zotero\\storage\\XK3JJFQ7\\1907.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1907.00283
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1907.00283
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Robotics,Electrical Engineering and Systems Science - Image and Video Processing}
+    \endentry
+  \enddatalist
+  \missing{ayodele_weft_2021}
+  \missing{ben-tzvi_sensing_2015}
+  \missing{bhattacharya_ipmc_2015}
+  \missing{brown_exoskeleton_1993}
+  \missing{bui_recognizing_2007}
+  \missing{cheng_tele-monitoring_2008}
+  \missing{da_silva_fbg_2011}
+  \missing{fahn_development_2005}
+  \missing{fels_glove-talk_1993}
+  \missing{fernandes_leandro_a_f_conceptual_nodate}
+  \missing{fujiwara_design_2014}
+  \missing{fujiwara_development_2013}
+  \missing{hernandez-rebollar_acceleglove_2002}
+  \missing{hsiao_data_2015}
+  \missing{jingqiu_arm-based_2014}
+  \missing{kamel_glove-based_2008}
+  \missing{kawaguchi_estimation_2017}
+  \missing{kim_3-d_2009}
+  \missing{kortier_assessment_2014}
+  \missing{ku_data_2003}
+  \missing{kumar_hand_2012}
+  \missing{lee_user_2017}
+  \missing{lin_design_2018}
+  \missing{luzhnica_sliding_2016}
+  \missing{ma_rml_2015}
+  \missing{maitre_basic_2019}
+  \missing{mascaro_measurement_2004}
+  \missing{mohandes_automation_2004}
+  \missing{pabon_data-glove_2007}
+  \missing{park_finger_2020}
+  \missing{popov_portable_2017}
+  \missing{shen_soft_2016}
+  \missing{shukor_new_2015}
+  \missing{takada_sensing_2019}
+  \missing{tarchanidis_data_2003}
+  \missing{tavares_rafael_instrumented_2018}
+  \missing{vanteddu_stable_2020}
+  \missing{weber_low-cost_2016}
+  \missing{wise_evaluation_1990}
+  \missing{youngmo_han_low-cost_2010}
+  \missing{zimmerman_hand_1986}
+\endrefsection
+\endinput
+

@@ -1,0 +1,16 @@
+Structure:
+- Abstract
+- Introduction
+- Literature Review
+- Used Feature Detector( we just use ORB, right?)
+- Different Rejection Methods and their Evaluation
+ - RANSAC
+ - OF
+- Conclusion
+
+
+Abstract - write after rest
+
+Introduction:
+- Task explanaition
+- difficult due to bad features (mby cite)

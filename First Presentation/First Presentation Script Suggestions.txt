@@ -1,0 +1,61 @@
+0) Introduction
+
+- names
+- supervisor Reuben Docea
+- title
+- Short explanation, why there are just 2 speaking (wisdom tooth removal beforehand at 11:30)
+- Short introduction to structure of presentation
+
+
+1) Introduction to Topic and Difficulties
+
+- Basic purpose of our work: Research on feature detection and matching rejection methods to improve feature matching in endoscopic environment for SLAM (Simultaneous Localization and Mapping) for MIS (Minimally Invasive Surgery)→ Picture
+- short explanation of features and matching of features for anyone that does not know yet
+- Test different methods and evaluate on synthetic test data
+- Usually feature detector algorithms are not really suited for the fleshy environment without much sharp edges in the human body
+→ mby cite Chen et al. (mby just a part, mby just copy their wording):
+"These feature-based SLAM systems tend to work well in rigid, well
+lit scenes with large working distances, but can fail to track or generate
+sufficient features for dense reconstructions in settings such
+as colonoscopy. The paucity of distinguishing features, tissue homogeneity,
+deforming surface, and highly variable specular appearance
+of the lumen can cause inconsistencies in estimating camera pose
+for systems such as ORB-SLAM, as not enough ORB features can be
+reliably tracked"
+
+2) First Ideas and Research
+
+- we are using mainly python
+- Started with ORB feature detector, looked into others later (explaination in 4)
+- Research on matching rejection methods firstly on Optical Flow Methods and Extended Kalman Filters as suggested by our supervisor
+- short explanation of both (just one sentence each, OF will be explained further in the OF section)
+- not really successful as we could not find any (meaningful) examples of these methods being used in our context yet
+- further research into some other methods → RANSAC
+- some papers used neural networks to find matches, evaded feature detection entirely → not our task
+
+
+3) Different implementations
+
+RANSAC (should be held by Nicolas)
+- used in many applications especially to determine movement between two images
+- computes a mathematical model for subsets of the data and compares the rest to the results (multiple iterations, mby show formula for suitable number of iterations)
+- output is model calculation for which most data points are valid (and these data points)
+- problem: finding a suitable model for our usecase
+- homography, essential/fundamental matrix -> different amount of data points (=> iterations), actual meaning of models
+- problems in our case: scene is very close to the camera, pixel movement might not be a linear function (investigate further on that before), might not know calibration matrix of camera
+- general problem: currently only small amount of features
+- already implemented in opencv for the mentioned models -> easy to use
+- current results (fundamental matrix and mby also homography until presentation)
+- possible improvement e.g. by classifying areas in the scene which should move more or less uniformly und try RANSAC on each of these areas
+
+OF (should be held by Boyang)
+- detailed explanation of OF (what's important for our use case)
+- findings, difficulties…
+
+
+4) Other feature detectors (should be held by Nicolas)
+
+- problem mentioned in the beginning → not enough features (and the ones we have are pretty bad)
+- explanation of what has been done so far to test out others
+- mentioning research on new method that detects blood vessel branching points as features → specifically made for our use case
+

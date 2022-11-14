@@ -1,0 +1,57 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'NCT_Paper.blg'
+[126] biber-MSWIN64:340> INFO - === 
+[169] Biber.pm:415> INFO - Reading 'NCT_Paper.bcf'
+[379] Biber.pm:952> INFO - Found 42 citekeys in bib section 0
+[396] Biber.pm:4340> INFO - Processing section 0
+[409] Biber.pm:4531> INFO - Looking for bibtex format file 'false_feature_rejection.bib' for section 0
+[497] bibtex.pm:1689> INFO - LaTeX decoding ...
+[601] bibtex.pm:1494> INFO - Found BibTeX data source 'false_feature_rejection.bib'
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'kim_3-d_2009' (section 0)
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'shukor_new_2015' (section 0)
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'jingqiu_arm-based_2014' (section 0)
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'zimmerman_hand_1986' (section 0)
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'luzhnica_sliding_2016' (section 0)
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'shen_soft_2016' (section 0)
+[645] Utils.pm:395> WARN - I didn't find a database entry for 'weber_low-cost_2016' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'maitre_basic_2019' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'ben-tzvi_sensing_2015' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'ma_rml_2015' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'brown_exoskeleton_1993' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'takada_sensing_2019' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'bhattacharya_ipmc_2015' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'ayodele_weft_2021' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'cheng_tele-monitoring_2008' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'wise_evaluation_1990' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'fujiwara_development_2013' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'fujiwara_design_2014' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'da_silva_fbg_2011' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'hernandez-rebollar_acceleglove_2002' (section 0)
+[646] Utils.pm:395> WARN - I didn't find a database entry for 'bui_recognizing_2007' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'kortier_assessment_2014' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'hsiao_data_2015' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'lin_design_2018' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'youngmo_han_low-cost_2010' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'fernandes_leandro_a_f_conceptual_nodate' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'fahn_development_2005' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'kawaguchi_estimation_2017' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'tarchanidis_data_2003' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'popov_portable_2017' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'mascaro_measurement_2004' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'park_finger_2020' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'fels_glove-talk_1993' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'mohandes_automation_2004' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'vanteddu_stable_2020' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'kumar_hand_2012' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'lee_user_2017' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'pabon_data-glove_2007' (section 0)
+[647] Utils.pm:395> WARN - I didn't find a database entry for 'ku_data_2003' (section 0)
+[648] Utils.pm:395> WARN - I didn't find a database entry for 'tavares_rafael_instrumented_2018' (section 0)
+[648] Utils.pm:395> WARN - I didn't find a database entry for 'kamel_glove-based_2008' (section 0)
+[655] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[655] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[655] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[655] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[661] bbl.pm:654> INFO - Writing 'NCT_Paper.bbl' with encoding 'UTF-8'
+[663] bbl.pm:757> INFO - Output to NCT_Paper.bbl
+[663] Biber.pm:128> INFO - WARNINGS: 41
